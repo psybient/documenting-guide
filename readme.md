@@ -20,17 +20,17 @@ To get more familiar this  [GitFlow Examples](https://gitversion.readthedocs.io/
     Version tag prefix? []
     Hooks and filters directory? [C:/Cmder/docs/merdocs/.git/hooks]  
 
-######Add remote to this repository
+#####Add remote to this repository
 
     λ git remote add origin https://github.com/user/documenting-guide.git
 
-######Commit changes
+#####Commit changes
      λ git add . && git commit -m "first commit, no branching yet"
     [develop a87a11b] first commit, no branching yet
      1 file changed, 24 insertions(+)
      create mode 100644 readme.md
 
-######Commit new Changes To But...
+#####Commit new Changes To But...
 This time we are going to create new feature branch using git flow commands.
 >  notice that Feature branches will take the feature branch name and use that as the pre-release tag.
 
@@ -48,10 +48,16 @@ These are the results from executing this command:
     
      git flow feature finish docs/init
     
-To Commit new branch creation and changes in readme file :
+#####To Commit new branch creation and changes in readme file :
     
     λ git add . && git commit -m "commiting after executing feature start command and save readme file with append resaults from running it"
 And To save These changes again we are going to execute following line:
 
     λ git add . && git commit -m "junk commit"
 
+I am going to save this again and commit after adding this to show how this branch life-cycle.
+
+#####Publish current branch:
+
+	`λ git add . && git commit -m "befor run `git flow feature finish docs/init`" && git flow feature finish docs/init`
+The result will be present in the seconds!
