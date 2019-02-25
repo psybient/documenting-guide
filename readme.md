@@ -29,3 +29,23 @@ To get more familiar this  [GitFlow Examples](https://gitversion.readthedocs.io/
     [develop a87a11b] first commit, no branching yet
      1 file changed, 24 insertions(+)
      create mode 100644 readme.md
+
+######Commit new Changes To But...
+This time we are going to create new feature branch using git flow commands.
+>  notice that Feature branches will take the feature branch name and use that as the pre-release tag.
+
+    λ git flow feature start docs/init
+These are the results from executing this command:
+
+    λ git flow feature start docs/init
+    Switched to a new branch 'feature/docs/init'
+    
+    Summary of actions:
+    - A new branch 'feature/docs/init' was created, based on 'develop'
+    - You are now on branch 'feature/docs/init'
+    
+    Now, start committing on your feature. When done, use:
+    
+     git flow feature finish docs/init
+    
+
