@@ -21,4 +21,11 @@ To get more familiar this  [GitFlow Examples](https://gitversion.readthedocs.io/
     Hooks and filters directory? [C:/Cmder/docs/merdocs/.git/hooks]  
 
 ######Add remote to this repository
-λ git remote add origin https://github.com/user/documenting-guide.git
+
+    λ git remote add origin https://github.com/user/documenting-guide.git
+
+######Commit changes
+     λ git add . && git commit -m "first commit, no branching yet"
+    [develop a87a11b] first commit, no branching yet
+     1 file changed, 24 insertions(+)
+     create mode 100644 readme.md
