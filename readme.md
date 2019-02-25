@@ -48,4 +48,10 @@ These are the results from executing this command:
     
      git flow feature finish docs/init
     
+To Commit new branch creation and changes in readme file :
+    
+    λ git add . && git commit -m "commiting after executing feature start command and save readme file with append resaults from running it"
+And To save These changes again we are going to execute following line:
+
+    λ git add . && git commit -m "junk commit"
 
